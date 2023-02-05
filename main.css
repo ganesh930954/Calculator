@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.calci{
+    margin: auto;
+    border: 3px solid white;
+    display: inline-block;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    color: orangered;
+}
+.button{
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 3px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(224, 195, 157);
+}
+#result{
+    width: 220px;
+    height: 30px;
+    margin: 12px;
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: right;
+}
+#orange{
+    background-color: rgb(240, 190, 11);
+}
+#gray{
+    background-color: rgb(151, 138, 138);
+}
